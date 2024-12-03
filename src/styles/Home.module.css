@@ -1,0 +1,31 @@
+.homeWrapper {
+    height: 100vh;
+}
+
+.homeContainer{
+    padding-top: 200px;
+}
+
+.introBlock {
+    margin-left: 21%;
+}
+
+.introBlock h2 {
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-weight: black;
+    color: #0062FF;
+    font-size: 84px;
+}
+
+.introText{
+    width: 40%;
+    margin-left: 45%;
+    margin-top: 50px;
+}
+
+.introText p {
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-weight: thin;
+    font-size: 32px;
+    color: #0062FF;
+}
