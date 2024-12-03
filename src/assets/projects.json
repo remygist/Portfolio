@@ -1,0 +1,88 @@
+[
+    {
+        "id": 1,
+        "name": "EXPO24",
+        "description": "EXPO24 is a web application for showcasing the final year projects of the third-year students at Erasmushogeschool. The application provides information about the event, including general details, reasons to attend, and an interactive section where users can sign in to participate.",
+        "technologies": [
+            "React",
+            "JavaScript",
+            "Node.js",
+            "Render",
+            "MongoDB"
+        ],
+        "image": "/images/template.png",
+        "link": "https://github.com/remygist/EXPO24"
+    },
+    {
+        "id": 2,
+        "name": "CodeAndClear",
+        "description": "CodeAndClear is a Node.js application that helps the process of creating git commit messages and descriptions. It utilizes OpenAI's GPT-3.5 model to generate commit messages based on the changes made in the code.",
+        "technologies": [
+            "JavaScript",
+            "Node.js",
+            "Git",
+            "OpenAI GPT-3.5"
+        ],
+        "image": "/images/openAI.jpg",
+        "link": "https://github.com/remygist/CodeAndClear"
+    },
+    {
+        "id": 4,
+        "name": "Rollercoaster Tycoon",
+        "description": "Rollercoaster Tycoon is a dynamic amusement park management application built with Kotlin, Spring Boot, and Vue. The platform allows users to manage park attractions efficiently by adding, editing, or removing rides and tracking their key details.",
+        "technologies": [
+            "Kotlin",
+            "Spring Boot",
+            "MySQL",
+            "Vue.js"
+        ],
+        "image": "/images/kotlin.png",
+        "link": "https://github.com/remygist/Rollercoaster-Tycoon"
+    },
+    {
+        "id": 5,
+        "name": "ComicTube",
+        "description": "ComicTube is a comprehensive web application designed for Marvel enthusiasts to explore and keep track of Marvel movies, shows, and related comic books.",
+        "technologies": [
+            "PHP",
+            "Laravel",
+            "MySQL",
+            "Blade"
+        ],
+        "image": "/images/laravel.webp",
+        "link": "https://github.com/remygist/ComicTube"
+    },
+    {
+        "id": 6,
+        "name": "WebScraper",
+        "description": "WebScraper is a tool that navigates a website using Puppeteer and collects data from the DOM by targeting specific class names or IDs. In this case I focused on the Torfs website men's shoes category. The goal is to scrape data such as the images, brand, type and price of each shoe and to display it on a custom-made page.",
+            "technologies": [
+            "Node.js",
+            "JavaScript"
+        ],
+        "image": "/images/webscraper.jpg",
+        "link": "https://github.com/remygist/WebScraper"
+    },
+    {
+        "id": 7,
+        "name": "DjangoStore",
+        "description": "DjangoStore is a website built with Django where users can create an account and manage a list of articles they can add to the site. Additionally, users can purchase items and add them to a shopping cart.",
+            "technologies": [
+            "Python",
+            "Django"
+        ],
+        "image": "/images/django.png",
+        "link": "https://github.com/remygist/DjangoStore"
+    },
+    {
+        "id": 8,
+        "name": "DataScaling",
+        "description": "DataScaling is a project designed to explore and compare various strategies for efficiently handling and displaying large datasets. It focuses on identifying challenges and implementing solutions for data-heavy applications, ensuring optimal performance and usability at scale.",
+            "technologies": [
+            "Python",
+            "Django"
+        ],
+        "image": "/images/django.png",
+        "link": "https://github.com/remygist/DataScaling"
+    }
+]

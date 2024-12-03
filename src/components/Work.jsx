@@ -1,20 +1,17 @@
 import styles from "../styles/Work.module.css";
 import templateImage from "/images/template.png";
 
-function Work() {
+function Work({ project }) {
     return (
         <>
             <div className={styles.workWrapper}>
                 <div className={styles.imageContainer}>
-                    <img src={templateImage}></img>
-                    <h3 className={styles.imageText}>EXPO24</h3>
+                <img src={project.image} alt={project.name} />
+                    <h3 className={styles.imageText}>{project.name}</h3>
                 </div>
                 <div className={styles.workDescription}>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Cupiditate molestiae quod optio temporibus harum culpa,
-                        impedit similique perspiciatis? Dignissimos quis, illum
-                        beatae in earum ipsum quod eligendi labore aliquam rem.
+                    {project.description}
                     </p>
                 </div>
             </div>
