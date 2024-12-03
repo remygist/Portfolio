@@ -1,0 +1,38 @@
+.workWrapper {
+    height: auto;
+    position: relative;
+    width: 45%;
+}
+
+.workWrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+.imageContainer {
+    position: relative; 
+    width: fit-content; 
+    z-index: -1;
+}
+
+.imageText {
+    position: absolute;
+    bottom: 2%; 
+    left: 2%; 
+    /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); */
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-weight: black;
+    color: #0062FF;
+    font-size: 48px;
+}
+
+.workDescription{
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-weight: medium;
+    font-size: 19px;
+    color: #0062FF;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
