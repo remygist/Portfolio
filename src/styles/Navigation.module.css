@@ -1,0 +1,33 @@
+.navWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: #0062FF;
+    border-radius: 20px;
+    padding: 15px 28px;
+    margin: 20px 0;
+}
+
+.navLinks {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+
+.navLinks li{
+    margin: 0 25px;
+}
