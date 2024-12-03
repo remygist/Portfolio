@@ -11,6 +11,12 @@
     position: relative;
 }
 
+.workWrapper a{
+    text-decoration: none;
+}
+
+
+
 .imageContainer {
     position: relative; 
     width: fit-content; 
