@@ -7,7 +7,7 @@ function Projects() {
         <div className={styles.projectsWrapper}>
             <div className={styles.projectsContainer}>
                 <div className={styles.projectsTitle}>
-                    <h2>PROJECTS</h2>
+                    <h2>MY <span className="blueBox">PROJECTS</span></h2>
                 </div>
                 <div className={styles.flexDisplay}>
                     <div className={styles.filterBox}>

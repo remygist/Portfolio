@@ -3,29 +3,37 @@
 }
 
 .homeContainer{
-    padding-top: 200px;
+    padding-top: 20vh;
 }
 
 .introBlock {
     margin-left: 21%;
+    position: relative;
 }
 
 .introBlock h2 {
     font-family: "Neue Haas Grotesk Display Pro";
     font-weight: black;
-    color: #0062FF;
+    color: #9DDBFD;
     font-size: 84px;
 }
 
 .introText{
+    position: absolute; /* Positions it relative to introBlock */
+    top: 70%; /* Places it below introBlock */
+    left: 30%; /* Aligns it with the left edge of introBlock */
     width: 40%;
-    margin-left: 45%;
-    margin-top: 50px;
+    margin-top: 20px; /* Optional: Adds spacing below introBlock */
 }
 
 .introText p {
     font-family: "Neue Haas Grotesk Display Pro";
     font-weight: thin;
     font-size: 32px;
-    color: #0062FF;
+    color: #9DDBFD;
+}
+
+.backend{
+    background-color: #4C86B6;
+    color: #303030;
 }

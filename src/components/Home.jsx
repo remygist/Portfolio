@@ -7,13 +7,12 @@ function Home() {
 				<div className={styles.homeContainer}>
 					<div className={styles.introBlock}>
 						<h2>
-							BACKEND<br></br>
+							<span className="blueBox">BACKEND</span><br></br>
 							DEVELOPER<br></br>
 							BASED IN BRUSSELS,<br></br>
 							BELGIUM
 						</h2>
-					</div>
-					<div className={styles.introText}>
+						<div className={styles.introText}>
 						<p>
 							Lorem ipsum dolor sit amet consectetur. Semper fermentum odio
 							vestibulum mi tellus morbi leo. Molestie fermentum nec sit
@@ -21,6 +20,8 @@ function Home() {
 							nunc mattis eros. Lectus orci ipsum.
 						</p>
 					</div>
+					</div>
+					
 				</div>
 			</div>
 		</>
