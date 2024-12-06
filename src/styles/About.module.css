@@ -1,0 +1,68 @@
+.aboutWrapper{
+    height: fit-content;
+    width: 100%;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutWrapper h1{
+    color: #9DDBFD;
+    font-size: 4vw;
+}
+
+.offset{
+    margin-left: 3.5vw;
+}
+
+.aboutMe {
+    display: flex;
+    align-items: center;
+    margin: 10vh 10vw;
+}
+
+.aboutImage {
+    height: auto; 
+    max-height: 100%; 
+    width: auto;
+    max-width: 20vw; 
+}
+
+.aboutImage img {
+    height: 100%; 
+    width: auto; 
+    object-fit: contain;
+}
+
+.aboutText {
+    width: 70%;
+    color: #9DDBFD;
+    font-size: 1.7vw; 
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-weight: medium;
+    margin-left: 5vw;
+}
+
+.bottomText{
+    line-height: 1;
+
+}
+
+.bottomText p{
+    color: #9DDBFD;
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+
+.bottomText h1{
+    word-spacing: 0.3vw;
+}
+
+.bottomText .offset{
+    margin-left: 2vw;
+}
+
+
+    
