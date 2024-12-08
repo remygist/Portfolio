@@ -16,20 +16,51 @@
 }
 
 .imageContainer { 
-    width: fit-content; 
+    width: 100%;
     z-index: -1;
 }
 
 .workTitle{
-    font-size: 1.5vw;
+    font-size: 2vw;
     color: #4C86B6;
 }
 
 .workDescription{
     font-family: "Neue Haas Grotesk Display Pro";
     font-weight: medium;
-    font-size: 19px;
+    font-size: 1vw;
     color: #9DDBFD;
     margin-top: 20px;
     margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1440px) {
+    .workDescription{
+        font-size: 1.2vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .workDescription{
+        font-size: 1.4vw;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    
+    .workWrapper {
+        height: auto;
+        position: relative;
+        width: 90%;
+    }
+
+    
+.workTitle{
+    font-size: 5vw;
+}
+
+.workDescription{
+    font-size: 3vw;
+}
+
 }

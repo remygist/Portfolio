@@ -46,7 +46,7 @@
 
 .bottomText{
     line-height: 1;
-
+    margin: 10vh 0;
 }
 
 .bottomText p{
@@ -94,9 +94,55 @@
     font-family: "Neue Haas Grotesk Display Pro";
     font-weight: 600;
     font-size: 2vw;
-    align-items: end;
+    float: right;
+    margin: 0 10vw 10vh 0;
 }
 
 
 
+@media screen and (max-width: 1440px) {
+    .contacts a, .email{
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .aboutWrapper h1{
+        font-size: 6.5vw;
+    }
+
+    .aboutImage {
+        height: auto; 
+        max-height: 100%; 
+        width: auto;
+        max-width: 35vw; 
+    }
+
+    .aboutMe{
+        margin: 5vh 5vw;
+    }
+
+    .aboutText {
+        font-size: 2.5vw; 
+    }
     
+    .bottomText p{
+        font-size: 3vw;
+    }
+    
+    .bottomText .offset{
+        margin-left: 2.5vw;
+    }
+
+    
+    .contacts a, .email{
+        font-size: 4.5vw;
+    }
+    
+    
+    .backToTop {
+        font-size: 3.5vw;
+        margin: 0 10vw 10vh 0;
+    }
+
+}

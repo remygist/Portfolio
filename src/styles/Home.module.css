@@ -1,5 +1,5 @@
 .homeWrapper {
-    min-height: 100vh;
+    min-height: fit-content;
 }
 
 .homeContainer{
@@ -15,25 +15,69 @@
     font-family: "Neue Haas Grotesk Display Pro";
     font-weight: black;
     color: #9DDBFD;
-    font-size: 84px;
+    font-size: 5vw;
+    line-height: 1.1;
 }
 
 .introText{
-    position: absolute; /* Positions it relative to introBlock */
-    top: 70%; /* Places it below introBlock */
-    left: 30%; /* Aligns it with the left edge of introBlock */
+    position: absolute; 
+    top: 75%; 
+    left: 30%; 
     width: 40%;
-    margin-top: 20px; /* Optional: Adds spacing below introBlock */
+    margin-top: 20px; 
 }
 
 .introText p {
     font-family: "Neue Haas Grotesk Display Pro";
     font-weight: thin;
-    font-size: 32px;
+    font-size: 1.5vw;
     color: #9DDBFD;
 }
 
 .backend{
     background-color: #4C86B6;
     color: #303030;
+}
+
+@media screen and (max-width: 1024px) {
+    .introBlock h2 {
+        font-size: 6vw;
+        line-height: 1.1;
+    }
+
+    .introText{
+        top: 70%; 
+        left: 35%; 
+        width: 45%;
+    }
+
+    .introText p {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .homeContainer{
+        padding-top: 15vh;
+    }
+
+    .introBlock {
+        margin-left: 10%;
+    }
+
+    .introBlock h2 {
+        font-size: 8vw;
+    }
+
+    .introText{
+        top: 100%; 
+        left: 0%; 
+        width: 90%;
+        margin-top: 10px; 
+    }
+
+    .introText p {
+        font-size: 4vw;
+    }
+    
 }

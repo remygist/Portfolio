@@ -10,7 +10,7 @@ function Projects() {
                     <h2>MY <span className="blueBox">PROJECTS</span></h2>
                 </div>
                 <div className={styles.flexDisplay}>
-                    <div className={styles.filterBox}>
+                    {/* <div className={styles.filterBox}>
                         <p>LANGUAGE</p>
                         <div className={styles["project-checkbox-container-1"]}>
                             <div className={styles["project-checkbox"]}>
@@ -30,7 +30,7 @@ function Projects() {
                                 <label htmlFor="python">Python</label>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className={styles.workContainer}>
                         {projects.map((project, index) => (
                             <Work key={index} project={project} />
