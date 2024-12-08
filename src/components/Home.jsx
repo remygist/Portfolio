@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 function Home() {
     return (
         <>
-            <div className={styles.homeWrapper}>
+            <div className={styles.homeWrapper} id="home">
                 <div className={styles.homeContainer}>
                     <div className={styles.introBlock}>
                         <h2>

@@ -1,10 +1,11 @@
+import { Link } from "react-scroll";
 import styles from "../styles/About.module.css";
 import aboutImage from "/images/me.jpg";
 
 function About() {
     return (
         <>
-            <div className={styles.aboutWrapper}>
+            <div className={styles.aboutWrapper} id="about">
                 <h1>
                     WANT TO KNOW <br></br>
                     <span className={styles.offset}>
@@ -45,13 +46,18 @@ function About() {
                     </h1>
                 </div>
             </div>
-            <div className={styles.contacts}>
+            <div className={styles.contacts} id="contact">
                 <a href="">GITHUB</a>
                 <a href="">LINKEDIN</a>
 
-				<p className={styles.email}>rgistelinck@gmail.com</p>
+                <p className={styles.email}>rgistelinck@gmail.com</p>
             </div>
-			<div className={styles.backToTop}> <span className="blueBox">BACK TO TOP</span></div>
+            <div className={styles.backToTop}>
+                {" "}
+                <Link to="home" smooth={true} duration={500}>
+                    <span className="blueBox">BACK TO TOP</span>
+                </Link>
+            </div>
         </>
     );
 }
