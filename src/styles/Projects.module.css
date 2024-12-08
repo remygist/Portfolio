@@ -1,0 +1,156 @@
+.projectsWrapper{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+	margin-top: 30vh;
+}
+
+.projectsContainer{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+	text-align: center;
+}
+
+.projectsTitle{
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-weight: black;
+    color: #9DDBFD;
+    font-size: 2.5vw;
+    margin-bottom: 20px;
+}
+
+.flexDisplay{
+    display: flex;
+    height: 100%;
+	margin-top: 10vh;
+}
+
+.filterBox{
+    width: 20%;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-weight: medium;
+    height: fit-content;
+	text-align: left;
+}
+
+
+.filterBox p{
+    font-size: 1.4vw;
+	color: #4C86B6;
+	font-family: "Neue Haas Grotesk Display Pro";
+    font-weight:500;
+}
+
+.project-checkbox-container-1{
+	margin-top: 1vh;
+}
+
+.project-checkbox {
+	position: relative;
+	display: flex;
+	align-items: center;
+	height: 30px;
+	color: #D72E82;
+	font-size: 1.2vw;
+	margin-top: 0.5vw;
+}
+
+.project-checkbox input[type="checkbox"] {
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	border: 3px solid #4C86B6;
+	margin-right: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	background-color: transparent;
+	border-radius: 2px;
+}
+
+.project-checkbox input[type="checkbox"]::after {
+	content: "";
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	width: 5px;
+	height: 10px;
+	border: solid white;  
+	border-width: 0 3px 3px 0;
+	transform: translate(-50%, -50%) rotate(40deg);
+	opacity: 0;
+	transition: opacity 0.2s ease-in-out;
+}
+
+.project-checkbox input[type="checkbox"]:checked::after {
+	opacity: 1;
+}
+
+.project-checkbox-container {
+	display: flex;
+	gap: 10px;
+}
+
+.workContainer{
+    width: 100%;
+    height: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+	text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+    .projectsTitle{
+		font-size: 4vw;
+	}
+
+	.filterBox p{
+		font-size: 2vw;
+	}
+
+	.project-checkbox{
+		font-size: 1.8vw;
+	}
+}
+
+
+@media screen and (max-width: 425px) {
+    
+    .projectsTitle{
+		font-size: 6.5vw;
+	}
+
+	.flexDisplay {
+		margin-top: 5vh;
+	}
+
+	.filterBox{
+		padding: 0;
+		padding-right: 10px;
+	}
+
+	.project-checkbox input[type="checkbox"] {
+		width: 10px;
+		height: 10px;
+		border: 2px solid #4C86B6;
+		margin-right: 5px;
+	}
+
+	.project-checkbox{
+		font-size: 2.5vw;
+	}
+
+
+}
