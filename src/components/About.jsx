@@ -50,7 +50,7 @@ function About() {
                 <a href="https://github.com/remygist" target="blank">GITHUB</a>
                 <a href="https://www.linkedin.com/in/r%C3%A9my-gistelinck-47987926a/" target="blank">LINKEDIN</a>
 
-                <p className={styles.email}>rgistelinck@gmail.com</p>
+                <p className={styles.email}><a href="mailto:rgistelinck@gmail.com">rgistelinck@gmail.com</a></p>
             </div>
             <div className={styles.backToTop}>
                 {" "}
