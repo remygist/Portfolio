@@ -47,8 +47,8 @@ function About() {
                 </div>
             </div>
             <div className={styles.contacts} id="contact">
-                <a href="">GITHUB</a>
-                <a href="">LINKEDIN</a>
+                <a href="https://github.com/remygist" target="blank">GITHUB</a>
+                <a href="https://www.linkedin.com/in/r%C3%A9my-gistelinck-47987926a/" target="blank">LINKEDIN</a>
 
                 <p className={styles.email}>rgistelinck@gmail.com</p>
             </div>
