@@ -22,6 +22,10 @@
     font-weight: medium;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 
 body {
 	margin: 0;

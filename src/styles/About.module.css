@@ -64,5 +64,39 @@
     margin-left: 2vw;
 }
 
+.contacts{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15vw;
+}
+
+.contacts a{
+    color: #D72E82;
+    font-size: 1.2vw;
+    text-decoration: none;
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-weight: 500;
+    
+    width: max-content;
+}
+
+.email{
+    color: #D72E82;
+    font-size: 1.2vw;
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-weight: 500;
+    margin-top: 7.5vh;
+    margin-bottom: 10%;
+}
+
+.backToTop {
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-weight: 600;
+    font-size: 2vw;
+    align-items: end;
+}
+
+
 
     
