@@ -27,7 +27,7 @@
         "link": "https://github.com/remygist/CodeAndClear"
     },
     {
-        "id": 4,
+        "id": 3,
         "name": "Rollercoaster Tycoon",
         "description": "Rollercoaster Tycoon is a dynamic amusement park management application built with Kotlin, Spring Boot, and Vue. The platform allows users to manage park attractions efficiently by adding, editing, or removing rides and tracking their key details.",
         "technologies": [
@@ -40,7 +40,7 @@
         "link": "https://github.com/remygist/Rollercoaster-Tycoon"
     },
     {
-        "id": 5,
+        "id": 4,
         "name": "ComicTube",
         "description": "ComicTube is a comprehensive web application designed for Marvel enthusiasts to explore and keep track of Marvel movies, shows, and related comic books.",
         "technologies": [
@@ -53,7 +53,7 @@
         "link": "https://github.com/remygist/ComicTube"
     },
     {
-        "id": 6,
+        "id": 5,
         "name": "WebScraper",
         "description": "WebScraper is a tool that navigates a website using Puppeteer and collects data from the DOM by targeting specific class names or IDs. In this case I focused on the Torfs website men's shoes category. The goal is to scrape data such as the images, brand, type and price of each shoe and to display it on a custom-made page.",
             "technologies": [
@@ -64,7 +64,7 @@
         "link": "https://github.com/remygist/WebScraper"
     },
     {
-        "id": 7,
+        "id": 6,
         "name": "DjangoStore",
         "description": "DjangoStore is a website built with Django where users can create an account and manage a list of articles they can add to the site. Additionally, users can purchase items and add them to a shopping cart.",
             "technologies": [
@@ -75,7 +75,7 @@
         "link": "https://github.com/remygist/DjangoStore"
     },
     {
-        "id": 8,
+        "id": 7,
         "name": "DataScaling",
         "description": "DataScaling is a project designed to explore and compare various strategies for efficiently handling and displaying large datasets. It focuses on identifying challenges and implementing solutions for data-heavy applications, ensuring optimal performance and usability at scale.",
             "technologies": [
@@ -84,5 +84,17 @@
         ],
         "image": "/images/django.png",
         "link": "https://github.com/remygist/DataScaling"
+    },
+    {
+        "id": 8,
+        "name": "Github Actions",
+        "description": "This repository demonstrates how to use GitHub Actions to automate workflows for deployment, testing, and custom actions. The project includes simple examples of automating tasks such as deploying a React app, running tests, and fetching random jokes using external APIs.",
+            "technologies": [
+            "Git",
+            "JavaScript",
+            "React"
+        ],
+        "image": "/images/django.png",
+        "link": "https://github.com/remygist/GithubActionsDemo"
     }
 ]
